@@ -11,6 +11,7 @@ export default function VerifyPage() {
   const [otp, setOtp] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
+  // const [example, setExample] = useState('') this is removed because we dont need it
 
   const handleVerify = async (e: React.FormEvent) => {
     e.preventDefault()
