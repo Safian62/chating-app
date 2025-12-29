@@ -11,10 +11,6 @@ export default function VerifyPage() {
   const [otp, setOtp] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
-<<<<<<< HEAD
-  // const [example, setExample] = useState('') this is removed because we dont need it
-=======
->>>>>>> parent of 657d639 (add feature)
 
   const handleVerify = async (e: React.FormEvent) => {
     e.preventDefault()
